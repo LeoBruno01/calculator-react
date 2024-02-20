@@ -1,24 +1,15 @@
 import styled from "styled-components"; 
 
-export const InputContainer = styled.div`
-    width: 100%;
-    height: 75px;
-    background-color: #000000;
-
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-
+export const ButtonContainer = styled.button`
+    padding: 20px;
+    border: 1px solid #CDCDCD;
+    background-color: #00AAF0;
+    color: #FFFFFF;
     font-size: 24px;
+    font-weight: 700;
+    flex: 1;
 
-    input{
-        width: 100%;
-        height: 75px;
-        background-color: #000000;
-        border: 0;
-        padding: 0 10px;
-        
-        font-size: 24px;
-        color: #FFFFFF
+    &:hover {
+        opacity: 0.6;
     }
 `
